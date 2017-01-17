@@ -1,0 +1,21 @@
+.selection_bubble {
+  z-index: 3000;
+  visibility: hidden;
+  position: absolute;
+  top: -5px;
+  left: 105%;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+
+.referenceMarker {
+  z-index: 3000;
+  visibility: hidden;
+  position: absolute;
+  display: inline-block;;
+}	
